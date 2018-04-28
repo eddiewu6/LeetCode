@@ -13,7 +13,8 @@ class Solution(object):
         i = 1 
         #Iterate for every elements in the nums
         while i < len(nums):
-        # Check whehter current element is not the same as previous element, if yes, the element at position count is assigned         # to it. count plus one
+        # Check whehter current element is not the same as previous element, if yes, the element at position count is assigned         
+        # to it. count plus one
             if nums[i] != nums[i-1]:
                 nums[count] = nums[i]
                 count += 1  
